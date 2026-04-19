@@ -1,6 +1,6 @@
 {
   "includeCoAuthoredBy": false,
-  "skipDangerousModePermissionPrompt": true,
-  "effortLevel": "medium",
-  "autoUpdatesChannel": "latest"
+  "effortLevel": "high",
+  "autoUpdatesChannel": "latest",
+  "skipDangerousModePermissionPrompt": true
 }

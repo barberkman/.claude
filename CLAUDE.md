@@ -36,3 +36,7 @@ After completing a task, always provide a summary that includes:
 
 - **Only make code changes that are explicitly requested.** Do NOT take initiative to modify, add, refactor, or fix code beyond what was asked.
 - If you notice something that could be improved, you may suggest it — but do NOT make the change unless the user approves.
+
+## Plan Mode
+
+When calling `ExitPlanMode`, always post a short TL;DR in the chat message that accompanies it (2–4 lines): the goal, the approach in one sentence, and roughly what will change. Keep the plan file itself fully detailed — the chat summary is just so I can skim without opening the file.

@@ -11,3 +11,5 @@ mcp-needs-auth-cache.json
 settings.local.json
 todos/
 statsig/
+plans/
+tasks/
