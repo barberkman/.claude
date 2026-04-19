@@ -1,0 +1,13 @@
+projects/
+sessions/
+shell-snapshots/
+session-env/
+backups/
+cache/
+file-history/
+history.jsonl
+.credentials.json
+mcp-needs-auth-cache.json
+settings.local.json
+todos/
+statsig/
