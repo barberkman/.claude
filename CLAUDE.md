@@ -96,3 +96,5 @@ After completing a task, always provide a summary that includes:
 ## Plan Mode
 
 When calling `ExitPlanMode`, post a short TL;DR in the accompanying chat message (2–4 lines): the goal, the approach in one sentence, and roughly what will change. Keep the plan file itself fully detailed — the chat summary is just for skimming.
+
+**Plan mode is strictly read-only.** Do not modify files by any means until `ExitPlanMode` is called. This includes Bash write patterns: `sed -i`, `tee`, output redirection (`>`, `>>`), heredocs to files (`cat <<EOF > file`), `python -c "...write..."`, `git commit`, `git add`, `gh pr ...`, and MCP write tools. Describe changes in the plan — don't apply them.
