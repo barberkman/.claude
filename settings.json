@@ -1,6 +1,16 @@
 {
   "includeCoAuthoredBy": false,
+  "permissions": {
+    "defaultMode": "auto",
+    "deny": [
+      "Read(~/**)",
+      "Read(//**)",
+      "Edit(~/**)",
+      "Edit(//**)"
+    ]
+  },
   "effortLevel": "high",
   "autoUpdatesChannel": "latest",
-  "skipDangerousModePermissionPrompt": true
+  "skipDangerousModePermissionPrompt": true,
+  "skipAutoPermissionPrompt": true
 }
