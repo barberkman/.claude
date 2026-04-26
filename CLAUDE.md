@@ -56,6 +56,19 @@ For multi-step tasks, state a brief plan:
 
 Strong success criteria let you loop independently. Weak criteria ("make it work") require constant clarification.
 
+## 5. Direct Answers
+
+**Match response length to question complexity. Default to terse.**
+
+- Answer the question asked — no preamble, no recap of what the user said.
+- Skip context the user already has. Don't restate the question or the file you just read.
+- One-line questions get one-line answers. Don't pad with headers, bullets, or "here's what I found" framing.
+- Use bullets/sections only when they genuinely aid scanning (3+ parallel items). Otherwise, prose.
+- No trailing summaries on short answers. The "What was done / Files changed" footer applies to **task completions that modified files**, not to every reply.
+- If you're tempted to add background "for completeness," don't. The user will ask if they want more.
+
+The test: Could a senior engineer get the same answer in half the words? If yes, cut.
+
 ## Workflow
 
 **Scope rule:** Only make code changes that fall within the scope of what was requested. Don't take initiative to refactor, modernize, or "fix" adjacent code. If you notice something worth changing outside that scope, mention it — don't do it.
@@ -85,7 +98,7 @@ When the user says "commit the changes" (or similar):
 
 ## Output
 
-After completing a task, always provide a summary that includes:
+After completing a task **that modified files**, provide a summary that includes:
 
 1. **What was done** — brief description of the changes and why.
 2. **Files changed** — grouped by action:
