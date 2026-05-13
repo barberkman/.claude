@@ -1,12 +1,6 @@
 {
   "includeCoAuthoredBy": false,
   "permissions": {
-    "deny": [
-      "Read(~/**)",
-      "Read(//**)",
-      "Edit(~/**)",
-      "Edit(//**)"
-    ],
     "defaultMode": "auto"
   },
   "effortLevel": "xhigh",
