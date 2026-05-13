@@ -16,3 +16,4 @@ tasks/
 paste-cache/
 plugins/
 .last-cleanup
+.statusline-cache.json
