@@ -11,6 +11,6 @@
   "fileCheckpointingEnabled": false,
   "statusLine": {
     "type": "command",
-    "command": "python ~/.claude/statusline.py"
+    "command": "python3 ~/.claude/statusline.py"
   }
 }
