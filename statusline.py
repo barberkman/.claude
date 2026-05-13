@@ -65,6 +65,10 @@ def main() -> None:
     norm = cwd.replace("\\", "/")
     short_dir = norm.replace(home, "~", 1) if norm.startswith(home) else norm
 
+    max_len = 40
+    if len(short_dir) > max_len:
+        short_dir = "..." + short_dir[-(max_len - 3):]
+
     segments = []
 
     git = git_segment(norm)
