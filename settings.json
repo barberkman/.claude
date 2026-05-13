@@ -8,5 +8,9 @@
   "skipDangerousModePermissionPrompt": true,
   "theme": "dark",
   "skipAutoPermissionPrompt": true,
-  "fileCheckpointingEnabled": false
+  "fileCheckpointingEnabled": false,
+  "statusLine": {
+    "type": "command",
+    "command": "python ~/.claude/statusline.py"
+  }
 }
