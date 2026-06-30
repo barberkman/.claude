@@ -138,7 +138,8 @@ def main() -> None:
     if seven_d is not None:
         s = f"{round(float(seven_d))}%"
         if seven_d_reset and int(seven_d_reset) > int(time.time()):
-            s += f" (resets {time.strftime('%a %-I:%M %p', time.localtime(int(seven_d_reset)))})"
+            hour_fmt = "%#I" if os.name == "nt" else "%-I"
+            s += f" (resets {time.strftime(f'%a {hour_fmt}:%M %p', time.localtime(int(seven_d_reset)))})"
         parts.append(s)
     if parts:
         segments.append(f"{BLUE}usage: {' / '.join(parts)}{RESET}")
