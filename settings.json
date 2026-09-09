@@ -1,6 +1,7 @@
 {
   "env": {
-    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet",
+    "EDITOR": "C:/bin/npp.cmd"
   },
   "includeCoAuthoredBy": false,
   "permissions": {
