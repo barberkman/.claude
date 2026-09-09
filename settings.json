@@ -16,5 +16,6 @@
     "type": "command",
     "command": "python ~/.claude/statusline.py"
   },
-  "outputStyle": "Concise"
+  "outputStyle": "Concise",
+  "autoCompactEnabled": false
 }
