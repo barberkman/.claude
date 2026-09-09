@@ -6,16 +6,20 @@
   "permissions": {
     "defaultMode": "auto"
   },
-  "effortLevel": "xhigh",
-  "autoUpdatesChannel": "latest",
-  "skipDangerousModePermissionPrompt": true,
-  "theme": "dark",
-  "skipAutoPermissionPrompt": true,
-  "fileCheckpointingEnabled": false,
+  "model": "opus[1m]",
   "statusLine": {
     "type": "command",
     "command": "python ~/.claude/statusline.py"
   },
   "outputStyle": "Concise",
-  "autoCompactEnabled": false
+  "effortLevel": "xhigh",
+  "autoUpdatesChannel": "latest",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark",
+  "autoCompactEnabled": false,
+  "fileCheckpointingEnabled": false,
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true,
+  "skipAutoPermissionPrompt": true,
+  "remoteControlAtStartup": true
 }
