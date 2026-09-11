@@ -30,7 +30,13 @@ changed.
 
 ## 2. Write the line
 
-- Turkish, imperative (emir kipi): "... ekle", "... düzelt", "... kaldır".
+- Turkish, passive past (edilgen çatı, -DI'lı geçmiş zaman): "... eklendi",
+  "... düzeltildi", "... kaldırıldı", "... güncellendi". Never the imperative
+  ("ekle", "düzelt") — the history records what was done, it does not give
+  orders.
+- The passive promotes the object to subject, so it loses the accusative
+  suffix: "uzun çalışma dizini kısaltıldı", not "uzun çalışma dizinini
+  kısaltıldı".
 - One line only. No body, no footnotes, no trailing period. First letter
   capitalized.
 - Aim for ~50 characters; hard stop at 72.
@@ -42,8 +48,8 @@ changed.
 - Terms Turkish developers keep in English stay in English — commit, branch,
   hook, cache, skill, statusline. Don't force a translation ("dal",
   "önbellek") unless the repo's own history uses one.
-- Describe the change, not the act of changing: "Statusline'da uzun dizin
-  yolunu kısalt", not "Statusline dosyasını güncelle".
+- Name the behavior that changed, not the file that was touched:
+  "Statusline'da uzun dizin yolu kısaltıldı", not "statusline.py güncellendi".
 - One line, one change. If the diff does several unrelated things, describe the
   dominant one rather than chaining them with "ve ... ve ...".
 - Match the repository's own subject convention: check `git log --oneline -10`.
@@ -57,7 +63,7 @@ no explanation, no file list, no offer to commit. The user's next action is to
 copy it.
 
 ```
-Statusline'da uzun çalışma dizinini kısalt
+Statusline'da uzun çalışma dizini kısaltıldı
 ```
 
 Never run `git commit` or `git add` here, and never write the message to a
