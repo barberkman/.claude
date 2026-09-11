@@ -17,3 +17,6 @@ paste-cache/
 plugins/
 .last-cleanup
 .statusline-cache.json
+feedback/
+ide/
+image-cache/
