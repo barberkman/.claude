@@ -1,22 +1,11 @@
-projects/
-sessions/
-shell-snapshots/
-session-env/
-backups/
-cache/
-file-history/
-history.jsonl
-.credentials.json
-mcp-needs-auth-cache.json
-settings.local.json
-todos/
-statsig/
-plans/
-tasks/
-paste-cache/
-plugins/
-.last-cleanup
-.statusline-cache.json
-feedback/
-ide/
-image-cache/
+# Whitelist: ignore everything Claude Code generates, track only these.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/npp.cmd
+!/settings.json
+!/statusline.py
+!/skills/
+
+# Skills synced in by Claude Code, not authored here
+/skills/synced/
