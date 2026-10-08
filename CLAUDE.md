@@ -106,6 +106,8 @@ After completing a task **that modified files**, provide a summary that includes
    - **Modified**: existing files that were edited.
    - **Deleted**: files that were removed.
 
+When creating an HTML artifact with a sidebar, always make the sidebar collapsible (toggle button to show/hide it).
+
 ## Plan Mode
 
 When calling `ExitPlanMode`, post a short TL;DR in the accompanying chat message (2–4 lines): the goal, the approach in one sentence, and roughly what will change. Keep the plan file itself fully detailed — the chat summary is just for skimming.
