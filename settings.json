@@ -9,7 +9,7 @@
   "model": "opus",
   "statusLine": {
     "type": "command",
-    "command": "python ~/.claude/statusline.py"
+    "command": "python3 ~/.claude/statusline.py || python ~/.claude/statusline.py"
   },
   "outputStyle": "Concise",
   "effortLevel": "xhigh",
